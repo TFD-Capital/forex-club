@@ -1,0 +1,2 @@
+# forex-club
+Trading academy
