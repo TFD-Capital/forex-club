@@ -11326,10 +11326,23 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.YOUTUBE{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+}
 
 aside,
 section {
   padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+aside,
+ .lite{
+  padding-top: 0rem !important;
   padding-bottom: 5rem;
 }
 
