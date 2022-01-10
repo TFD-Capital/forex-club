@@ -46,6 +46,61 @@ body{
     margin-bottom:20px;
 }
 
+.contenedor-1{
+	background-color: black;
+    width: 90%;
+    max-width:900px;
+    margin: auto;
+	height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tabla-1{
+    width: 33%;
+    height: 300px;
+    margin: auto;
+    border:1px solid #343759;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px  #343759;
+    padding: 60px;
+    text-align: center;
+    flex-grow: 1;
+    color: white;
+}
+
+.tabla-1>h2{
+    font-size:30px;
+    margin-bottom:35px;
+}
+
+.tabla-1 img{
+    width: 64px;
+    margin-bottom:35px;
+}
+
+.tabla-1 > h3{
+    font-size:30px;
+    margin-bottom: 20px;
+}
+
+.tabla-1 > p{
+    display: block;
+    margin-bottom:20px;
+}
+.tabla-1:hover{
+    background: #343759;
+    color: #f1f1f2;
+    transition: .5s all;
+    transform: scale(1.1);
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+
 .boton{
     display:inline-block;
     width: 150px;
@@ -122,7 +177,6 @@ body{
     margin-bottom: 20px;
 }
 
-
 .container .card h4{
     font-weight: 600;
 }
@@ -169,6 +223,7 @@ body{
     color: white;
     border: 1px solid #FF0000;
 }
+
 @media screen and (max-width: 1000px){
     .tabla{
         width: 45%;
@@ -176,6 +231,12 @@ body{
         margin-bottom: 40px;
         flex-grow: initial;
 		
+    }
+    .tabla-1{
+        width: 45%;
+        max-width:none;
+        margin-bottom: 40px;
+        flex-grow: initial;
     }
     .calendar-1{
         display: none;
@@ -192,6 +253,14 @@ body{
     .tabla > h2{
         margin-top:40px;
     }
+    .tabla-1{
+        width: 45%;
+        padding:30px;
+		
+    }
+    .tabla-1 > h2{
+        margin-top:40px;
+    }
     .calendar{
         display:none;
     }
@@ -199,11 +268,16 @@ body{
         display: block;
 
     }
-    
+   
 }
 
 @media screen and (max-width:550px){
     .tabla{
+        width: 85%;
+        padding: 20px;
+	
+    }
+    .tabla-1{
         width: 85%;
         padding: 20px;
 	
