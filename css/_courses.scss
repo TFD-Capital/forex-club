@@ -889,6 +889,14 @@ section .metodos-pago{
 .logo-ut i{
 	width: 200px;
 }
+.content-block .sidebar-2 {
+    position: absolute;
+    width: 335px;
+    margin-left: 15px;
+    height: 100%;
+    right: 0;
+}
+
 @media only screen and (max-width: 1200px){
     .title-time-c{
     	h2 {
@@ -944,8 +952,23 @@ section .metodos-pago{
 		width: 452px;
 		height: 425px;
 	}
+	.content-block .sidebar-2 {
+		position: absolute;
+		width: 335px;
+		margin-left: 15px;
+		height: 100%;
+		right: 0;
+	}
+	
 }
 @media only screen and (max-width: 992px){
+	.content-block .sidebar-2 {
+		float: left;
+		width: 100%;
+		margin-left: 0;
+		position: inherit;
+		height: auto;
+	}
 	.title-time-c{
 		h2 {
     		font-size: 28px;
@@ -963,11 +986,13 @@ section .metodos-pago{
 	}
 	/*--::Evento interna::--*/
 	.content-block{
-		.sidebar {
-		    float: left;
-		    width: 100%;
-		    margin-left: 0;
-		    position: inherit;
+	.sidebar {
+			float: left;
+			width: AUTO;
+			margin-left: 0;
+			position: inherit;
+			height: auto !important;
+		
 		    .media-course {
 				display: block;
 				margin-bottom: 30px;
@@ -1058,6 +1083,13 @@ section .metodos-pago{
 	}
 }
 @media only screen and (max-width: 768px){
+	.content-block .sidebar-2 {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    position: inherit;
+    height: auto;
+}
 	.sidebar-courses {
     	width: 100%;
     	margin-right: 0;
@@ -1068,6 +1100,13 @@ section .metodos-pago{
 		.block-menu {
     		display: none;
 		}
+	}
+	.content-block .sidebar {
+		float: left;
+		width: AUTO;
+		margin-left: 0;
+		position: inherit;
+		height: auto !important;
 	}
 	.body-courses {
     	padding-left: 0;
@@ -1180,6 +1219,20 @@ section .metodos-pago{
 	}
 }
 @media only screen and (max-width: 480px){
+	.content-block .sidebar-2 {
+		float: left;
+		width: 100%;
+		margin-left: 0;
+		position: inherit;
+		height: auto;
+	}
+	.content-block .sidebar {
+		float: left;
+		width: AUTO;
+		margin-left: 0;
+		position: inherit;
+		height: auto;
+	}
 	.title-time-c{
 		width: 100%;
 		text-align: center;
