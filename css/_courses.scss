@@ -889,8 +889,8 @@ section .metodos-pago{
 .logo-ut i{
 	width: 200px;
 }
-.content-block .sidebar-2 {
-    position: absolute;
+.content-block .siderbar {
+	position: absolute;
     width: 335px;
     margin-left: 15px;
     height: 100%;
@@ -952,7 +952,7 @@ section .metodos-pago{
 		width: 452px;
 		height: 425px;
 	}
-	.content-block .sidebar-2 {
+	.content-block .siderbar {
 		position: absolute;
 		width: 335px;
 		margin-left: 15px;
@@ -960,15 +960,18 @@ section .metodos-pago{
 		right: 0;
 	}
 	
+	
 }
 @media only screen and (max-width: 992px){
-	.content-block .sidebar-2 {
-		float: left;
-		width: 100%;
-		margin-left: 0;
-		position: inherit;
-		height: auto;
+	.content-block .siderbar {
+			
+	float: left;
+	width: 100%;
+	margin-left: 0;
+	position: inherit;
+	height: auto;
 	}
+
 	.title-time-c{
 		h2 {
     		font-size: 28px;
@@ -1083,13 +1086,14 @@ section .metodos-pago{
 	}
 }
 @media only screen and (max-width: 768px){
-	.content-block .sidebar-2 {
-    float: left;
-    width: 100%;
-    margin-left: 0;
-    position: inherit;
-    height: auto;
-}
+	.content-block .siderbar {
+			
+		float: left;
+		width: 100%;
+		margin-left: 0;
+		position: inherit;
+		height: auto;
+		}
 	.sidebar-courses {
     	width: 100%;
     	margin-right: 0;
@@ -1219,13 +1223,14 @@ section .metodos-pago{
 	}
 }
 @media only screen and (max-width: 480px){
-	.content-block .sidebar-2 {
+	.content-block .siderbar {
+			
 		float: left;
 		width: 100%;
 		margin-left: 0;
 		position: inherit;
 		height: auto;
-	}
+		}
 	.content-block .sidebar {
 		float: left;
 		width: AUTO;
