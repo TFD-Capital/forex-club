@@ -26,22 +26,49 @@ width: 45%;
 .gradiente{
   background-image: url(../images/GRADIENTE.png);
   background-position: 100%;
-  background-repeat: no-repeat;}
+  background-repeat: no-repeat;
+}
 
-  .gradiente-container {
+.gradiente-container {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-size:25px;
     padding-top: 80px;
     padding-bottom: 40px;
+}
 
-  }
-
-
+.gradiente-container h2 {
+  font-size:50px;
+}
 
 
 @media (max-width: 700px) {
+
+.gradiente-container {
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.gradiente-container h2 {
+  font-size:30px !important;
+}
+.gradiente-container p {
+  font-size:17px !important;
+}
+.col-xl-8 h2{
+    font-size: 35px !important;
+  }
+.masthead{
+    padding-top: 40px !important;
+  }
+center h1{
+  font-size: 35px !important;
+}
+center h2{
+  font-size: 30px !important;
+  width: 80%;
+}
 .frow {
   padding:10px;
   width:100%;
@@ -62,7 +89,6 @@ width: 90%;
 
 }
 }
-
 @media only screen and (max-width: 700px) {
   .frow2{
     height: 600px;
