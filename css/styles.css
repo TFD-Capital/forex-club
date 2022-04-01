@@ -1,5 +1,80 @@
 @charset "UTF-8";
 
+.frow {
+  padding:10px;
+width:90%;
+ margin-left:auto ;
+   margin-right: auto;
+display:flex;
+}
+
+.frow .col {
+display: block;
+float:left;
+margin: 1% 0 1% 1.6%;
+background:#CCC;
+padding:2%;
+border-radius: 15px;
+background-color: white;
+color: black;
+}
+
+.frow .col3 {
+width: 45%;
+}
+
+.gradiente{
+  background-image: url(../images/GRADIENTE.png);
+  background-position: 100%;
+  background-repeat: no-repeat;}
+
+  .gradiente-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+  }
+
+
+
+
+@media (max-width: 700px) {
+.frow {
+  padding:10px;
+  width:100%;
+  margin-left:auto ;  
+  margin-right: auto;  
+  height: auto;
+  display: block;
+}
+.frow .col {
+   margin: 2% 0%;
+ margin-left:auto ;  
+  margin-right: auto; 
+ }
+.frow .col3 {
+  margin-left:auto ;  
+  margin-right: auto;  
+width: 90%;
+
+}
+}
+
+@media only screen and (max-width: 700px) {
+  .frow2{
+    height: 600px;
+  }
+  .frow{height: auto;}
+.col {  margin: 1% 0 1% 0%;  margin-left: 0 !important;}
+.frow .col3, .frow .col4 { width: 100%;
+  height: auto; }
+}
+
+
+
 html{
  font-family:   "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
 }
@@ -909,6 +984,7 @@ progress {
 }
 
 @media (min-width: 576px) {
+ 
   .col-sm {
     flex: 1 0 0%;
   }
@@ -5614,6 +5690,7 @@ textarea.form-control-lg {
 }
 
 @media (min-width: 576px) {
+
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
