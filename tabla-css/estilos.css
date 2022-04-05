@@ -15,7 +15,7 @@ body{
 
 .tabla{
     width: 33%;
-    height: 650px;
+    height: 750px !important;
     margin: auto;
     border: 1px solid #343759;
     border-radius: 4px;
