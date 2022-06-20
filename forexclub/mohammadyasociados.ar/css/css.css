@@ -13,9 +13,7 @@ section .separte{
     background-position: 100%;
    
 }
-.contact{
-    
-}
+
 
 .bgimage img{
 align-items: center;
@@ -9476,3 +9474,17 @@ fieldset:disabled .btn {
 .bi-4x {
     font-size: 4rem
 }
+
+
+
+@media screen and (max-width:550px){
+    .bgimage img {
+  
+width: 200px;
+    }
+    .pt-5{
+  align-items: center;
+    
+    }
+}
+
