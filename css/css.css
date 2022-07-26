@@ -7,15 +7,15 @@ body{
 }
 .bg-bg50{background-color: black !important; color: white;}
 section .separte{
-    background-image: url(../images/fondobg+.pngseparte);
-    background: url(../images/fondobg+.pngseparte);
+    background-image: url(../images/fondobg+.png);
+    background: url(../images/fondobg+.png);
     color: white;
-    background-position: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
    
 }
-.contact{
-    
-}
+
 
 .bgimage img{
 align-items: center;
@@ -9476,3 +9476,16 @@ fieldset:disabled .btn {
 .bi-4x {
     font-size: 4rem
 }
+
+.construir{
+    background:linear-gradient(45deg, #2e54f5, #9071ff) !important;
+    padding: 10px;
+    
+}
+
+@media screen and (max-width:600px){
+    .bgimage img {width: 150px;
+    }
+  
+}
+
